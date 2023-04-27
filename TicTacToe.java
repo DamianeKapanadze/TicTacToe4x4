@@ -72,7 +72,7 @@ public class TicTacToe extends JFrame implements ActionListener {
             } else if (boardButtons[0][i].getText() == boardButtons[1][i].getText()
                     && boardButtons[2][i].getText() == boardButtons[1][i].getText()
                     && boardButtons[3][i].getText() == boardButtons[1][i].getText()) {
-                winner = boardButtons[i][0].getText();
+                winner = boardButtons[0][i].getText();
                 break;
             }
         }
